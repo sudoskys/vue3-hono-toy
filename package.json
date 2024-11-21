@@ -1,0 +1,16 @@
+{
+  "name": "2411-app",
+  "version": "1.0.0",
+  "description": "作业用",
+  "scripts": {
+    "dev:app": "pnpm -C packages/app dev",
+    "dev:server": "pnpm -C packages/server dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "drizzle-kit": "^0.28.0",
+    "tsx": "^4.19.2"
+  }
+}
