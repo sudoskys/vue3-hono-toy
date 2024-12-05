@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.13.5",
+    "drizzle-zod": "^0.5.1",
     "hono": "^4.6.9",
     "sqlite3": "^5.1.7",
     "zod": "^3.23.8"

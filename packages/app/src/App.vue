@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { Route, Home } from 'lucide-vue-next'
-import { Themes, StyleProvider } from '@varlet/ui'
-StyleProvider(Themes.md3Light)
 </script>
 <template>
   <div class="relative min-h-screen">
@@ -11,7 +9,7 @@ StyleProvider(Themes.md3Light)
     <!-- 一个头部 -->
     <header class="flex items-center p-4">
       <div class="text-left">
-        浏览 {{ $route.path }}
+        浏览 
       </div>
       <div class="mx-auto lg:w-1/2 md:w-fit flex justify-center items-center">
         <div>
